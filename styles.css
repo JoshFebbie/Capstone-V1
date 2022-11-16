@@ -1,9 +1,8 @@
-
-
 *{  
     box-sizing: border-box;
     font-family: monospace, sans-serif;
 }
+
 /* //HOME PAGE STYLING// */
 html, body {
     margin: 0;
@@ -11,7 +10,7 @@ html, body {
 
 }
 
-.home-header {
+.main-header {
     background-color: black;
     background-image: url("images/fflogos/tours-img.jpg");
     background-repeat: no-repeat;
@@ -57,8 +56,8 @@ html, body {
 }
 
 .logo1 {
-    width: 120px;
-    border: solid black 2px;
+    width: 60px;
+    height: 60px;
 }
 
 .myLogo {
@@ -82,8 +81,11 @@ html, body {
 }
 
 .hfooter {
-    border: solid black;
+    /* border: solid black;
+    border-width: 2px; */
     background-color: black;
+    opacity: 80%;
+    margin-top: auto;
     
 }
 
@@ -105,7 +107,7 @@ html, body {
     height: 30px;
 }
 
-.home-header,
+.main-header,
 .hfooter {
     position: fixed;
     padding: 1rem;
@@ -113,7 +115,7 @@ html, body {
     max-width: inherit;
 }
 
-.home-header {
+.main-header {
     top: 0;
 }
 
@@ -127,30 +129,94 @@ main {
 }
 
 .home-sec {
-    /* background-image: url("images/fflogos/lees.jpg"); */
     display: flex;
     justify-content: space-around;
     align-items: center;
     flex-direction: column;
     font-size: x-large;
     color: antiquewhite;
+    margin: 1em;
+    max-width: 1080px;
+    margin: 0 auto;
+    padding: 0 1.5em;
 }
-p1 {
+
+.tour-sec {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    font-size: x-large;
+    color: rgb(255, 255, 255);
+    margin: 1em;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 0.5em;
+}
+
+.container {
+    background-color: black;
+    opacity: 70%;
+    border: solid black 5px;
+    border-radius: 10px;
+}
+
+.tour-row {
+    border-bottom: 3px solid rgb(255, 255, 255);
+    padding-bottom: 1em;
+    margin-bottom: 1em;
+}
+
+.tour-item {
+    display: inline-block;
+    padding-right: .5em;
+    /* color: antiquewhite; */
+}
+
+.tour-date {
+    font-weight: bolder;
+    /* color: antiquewhite; */
+    width: 10%;
+}
+
+.tour-day {
+    width: 40%;
+}
+
+.tour-location {
+    width: 40%;
+}
+
+/* .tour-btn {
+    max-width: 20%;
+} */
+
+
+
+
+
+
+
+
+
+
+
+.p1 {
     background-color: black;
     
 }
 
 .nymph-img img {
-  width: 250px;
-  height: 250px;
+  width: 150px;
+  height: 150px;
 }
 
 /* .dry-img {
     width: 300px;
     height: 300px;
-}  */
+}  
 
-/* .box-img {
+.box-img {
     width: 250px;
     height: 250px;
 }
@@ -158,7 +224,11 @@ p1 {
 .acc-img {
     width: 250px;
     height: 250px;
-} 
+}  */
+
+.tour-div {
+    color: black;
+}
 
 
 
